@@ -9,7 +9,7 @@ public class Main {
         for (int i = 0; i <= 10; i++) {
             sum += 1;
         }
-        System.out.println("うまいこといかない");
+        System.out.println("変更が反映されていれば成功！");
         System.out.println(sum);
     }
 }
