@@ -11,9 +11,15 @@ public class Main {
         }
         System.out.println("変更が反映されていれば成功！");
         System.out.println(sum);
-        hello();
+
+        System.out.println("yobidasi");
+        hello("こんにちは");
+        hello("こんばんわ");
+
+
     }
-    public static void hello(){
-        System.out.println("helloメソッド");
+
+    private static void hello(String konnitiwa) {
+    System.out.println(konnitiwa);
     }
 }
